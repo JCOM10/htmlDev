@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 0 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #ccc;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
